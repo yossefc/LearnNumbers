@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F1E7"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:background="#FFFFFF"
+        android:text="Two numbers" />
+
+    <ImageView
+        android:id="@+id/ivZF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/zefra_mad" />
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textSize="35dp"
+        android:padding="10sp"
+        android:text="Start now" />
+
+</LinearLayout>
