@@ -50,7 +50,7 @@ public class Exercise extends AppCompatActivity {
         context=this;
         takeit=getIntent();
         stName=takeit.getStringExtra("name");
-        Toast.makeText(this, "Hello, "+stName, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Hello my friend, "+stName, Toast.LENGTH_SHORT).show();
         tvExer=findViewById(R.id.tvExer);
         bNext=findViewById(R.id.bNext);
         buildExer();
